@@ -1,0 +1,66 @@
+/* Simple reset to make it look consistent on all browsers */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    width: 380px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #1a1a1b;
+}
+
+.price-info {
+    color: #65676b;
+    margin-bottom: 25px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e4e6eb;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+input[readonly] {
+    background-color: #f8f9fa;
+    color: #28a745;
+    font-weight: bold;
+    cursor: not-allowed;
+}
